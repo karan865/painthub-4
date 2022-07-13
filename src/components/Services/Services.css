@@ -1,0 +1,106 @@
+.our-services{
+    padding-bottom: 100px;
+}
+.our-services-text{
+    text-align: center;
+    padding: 40px 0;
+    font-weight: 700;
+}
+.services-card{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.services-card p {
+  padding-top: 12px;
+  font-size: 2.7vmin;
+  font-weight: 400;
+}
+
+
+
+/* services we offer starts here */
+.services-offer{
+    background-color: rgb(244, 244, 244);
+}
+.services-offer-text{
+    text-align: center;
+    padding: 50px 0;
+}
+.services-offer-text h1{
+    font-weight: 700;
+}
+
+.services-offer-card{
+    position: relative;
+    width: 45%;
+    margin-bottom: 40px;
+    background-color: white;
+}
+.services-offer-card img{
+    width: 100%;
+}
+
+.upper h2{
+    position: absolute;
+    bottom: 60%;
+    left: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 4.5vmin;
+}
+.lower {
+ padding: 40px;
+}
+.lower p{
+    font-size: 2.7vmin;
+    padding-bottom: 10px;
+}
+.lower button{
+    margin-bottom: 80px;
+    width: 160px;
+    height: 50px;
+    border: 1px solid rgb(12, 12, 74);
+    font-weight: 500;
+    font-size: 2.3vmin;
+}
+
+
+.color-ideas-section-2{
+    margin: -70px 0;
+    background-color: rgb(244, 244, 244);
+}
+.color-ideas-section{
+    background-color: rgb(244, 244, 244);
+}
+
+
+/* why choose our services starts here */
+.why-choose-services{
+    padding-bottom: 50px;
+}
+.why-choose-services-text{
+    text-align: center;
+    padding: 30px 0;
+}
+.why-choose-services-text h1{
+    font-weight: 700;
+    font-size: 5vmin;
+}
+.why-choose-services-card-box{
+    padding:  0 100px;
+}
+.why-choose-services-card{
+    text-align: center;
+    padding: 15px;
+    width: 31%;
+    margin-bottom: 30px;
+    background-color: rgb(244, 244, 244);
+}
+.why-choose-services-card h4{
+    padding: 10px 0;
+    font-weight: 700;
+}
+.why-choose-services-card p{
+    font-size: 2.4vmin;
+    letter-spacing: 1px;
+}

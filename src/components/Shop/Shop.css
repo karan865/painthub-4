@@ -1,0 +1,87 @@
+.color-ideas-right-4{
+    padding-top: 45px;
+}
+.shop-image{
+    padding-top: 100px ;
+    padding-bottom: 20px;
+}
+.shop-image img{
+    width: 30%;
+    padding-bottom: 60px;
+}
+
+/* stickers section starts here */
+.sticker-card{
+    width: 23%;
+    padding-bottom: 90px;
+}
+.sticker-card p{
+    padding: 15px 0;
+    font-size: 2.5vmin;
+}
+.sticker-text{
+    padding: 20px 0;
+}
+.sticker-text h2{
+    font-size: 6vmin;
+    font-weight: 700;
+}
+.sticker-card img{
+    width: 100%;
+    height: 85%;
+}
+.sticker-button{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.del{
+    font-size: 2.7vmin;
+    font-weight: 200;
+    color: black;
+}
+.orange{
+    color: orange;
+    font-size: 2.3vmin;
+}
+
+
+
+/* color spectra */
+.colorSpectra{
+    width: 82%;
+    background: url('../../images/color-spectra.jpg');
+    padding-top: 70px;
+    padding-left: 7%;
+}
+.colorSpectra h1{
+    line-height: 65px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding-bottom: 35px;
+}
+.overlap-image button{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 120px;
+    color: white;
+    font-weight: 500;
+    font-size: 2.4vmin;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+@media (max-width:900px){
+    .shop-image img{
+        width: 100%;
+    }
+    .sticker-card{
+        width: 100%;
+    }
+}

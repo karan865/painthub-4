@@ -1,0 +1,20 @@
+/* footer section */
+footer{
+    padding: 50px 100px;
+    background: #192a56;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+footer h3{
+    font-size: 3.5vmin;
+    margin-bottom: 10px;
+}
+footer p{
+    font-family: 'roboto', sans-serif;
+    font-size: 2.3vmin;
+}
+

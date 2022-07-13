@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2vmin;
+}
+
+
+
+.blue-btn{
+  background: #192a56;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  border-radius: 5px;
+}
+.blue-btn:hover{
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.white-btn{
+  width: 250px;
+    height: 50px;
+  border: 1px solid #192a56 ;
+  background-color: white;
+  border-radius: 0;
+    letter-spacing: 1px;
+    font-size: 2.2vmin;
+}
+.white-btn:hover{
+  background-color: #192a56;
+  color: white;
+}
+
+
+.inner{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+  /* .services-card{
+      width: 100%;
+  }
+  .quality-card{
+    width: 100%;
+  }
+  .featured-row{
+    width: 100%;
+  }
+  .featured-left-col{
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .featured-right-col{
+    width: 100%;
+    padding-bottom: 50px;
+  } */
+  .footer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+ .footer-card{
+   width: 50%;
+   margin-bottom: 50px;
+   padding-left: 50px;
+ }
+
+}
+
+
+@media (max-width:500px){
+  .contact-row{
+    display: block;
+  }
+  .contact-left-col{
+    display: block;
+    width: 100%;
+  }
+  .contact-right-col{
+    display: block;
+    width: 100%;
+  }
+  .footer-card{
+    padding-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+/* header-1 */
+.email{
+    font-family: 'roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 0px 70px;
+    background: #192a56;
+    color: white;
+    align-items: center;
+}
+.email p {
+    padding-top: 12px;
+}
+.email i{
+    font-size: 15px;
+    margin: 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+/* header-2 */
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 63px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 10px 20px ;
+    /* margin: 0 15px; */
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* nav ul li a:hover ,
+nav ul li a.active {
+    padding: 7px 15px ;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+} */
+a:hover{
+    font-weight: 700;
+    color:#192a56;
+}
+
+#click {
+    display: none;
+}
+
+.menu-btn {
+    font-size: 23px;
+    display: none;
+}
+
+ @media (max-width : 940px) {
+
+    nav {
+        padding: 30px 40px ;
+    }
+
+    #click:checked ~ ul {
+        left: 0%;
+    }
+
+    #click:checked ~ .menu-btn i:before {
+        content: "\f00d";
+    }
+
+
+    nav ul {
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+        z-index: 1000;
+    }
+
+    nav ul li {
+        margin: 20px 0;
+    }
+
+    nav ul li a {
+        font-size: 2vmin;
+        display: block;
+    }
+
+    nav ul li a:hover ,
+    nav ul li a.active {
+    padding: 7px 15px ;
+    background-color: black;
+    color: rgb(91, 238, 164);
+    border-radius: 5px;
+}
+
+.menu-btn {
+    display: block;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.fa-bars{
+    font-size: 2.5vmin;
+}
+
+.email{
+    display: none;
+}
+} 
+
+
+

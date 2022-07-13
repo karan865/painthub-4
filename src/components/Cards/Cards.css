@@ -1,0 +1,17 @@
+
+
+/* media query */
+@media (max-width:900px){
+    .services-offer-card{
+        width: 100%;
+    }
+    /* .lower button{
+        text-align: center;
+        width: 100px;
+        height: 50px;
+        font-size: 2vmin;
+     } */
+     .why-choose-services-card{
+        width: 100%;
+     }
+}
