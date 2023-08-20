@@ -11,7 +11,7 @@ require('../db/conn');
 const User = require('../models/user');
 
 
-router.get("/services", authenticate, (req, res) => {
+router.get("https://painthub-4.onrender.com/services", authenticate, (req, res) => {
     console.log("Hello from the secret page");
     res.send(req.rootUser);
 });
@@ -19,7 +19,7 @@ router.get("/services", authenticate, (req, res) => {
 
 // Using Async Await Way 
 
-router.post("/register", async (req, res) => {
+router.post("https://painthub-4.onrender.com/register", async (req, res) => {
     const { name,LastName, email, phone,  password, cpassword } = req.body
     
     const user = await User.findOne({ email: email });
@@ -105,7 +105,7 @@ router.post("/register", async (req, res) => {
 
 
     // creating a signin route 
-    router.post("/login", async (req, res) => {
+    router.post("https://painthub-4.onrender.com/login", async (req, res) => {
         try {
 
             const { email, password } = req.body;
@@ -145,7 +145,7 @@ router.post("/register", async (req, res) => {
     })
 
 //API for Logout
-    router.get("/logout", (req, res) => {
+    router.get("https://painthub-4.onrender.com/logout", (req, res) => {
         res.clearCookie('jwtoken', { path: '/' });
     
         //* we need to send the res atleast else with will not work
